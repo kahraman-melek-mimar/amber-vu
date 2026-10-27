@@ -1,0 +1,20 @@
+{
+  "name": "amber-vu",
+  "version": "0.4.3",
+  "private": true,
+  "description": "15 on-device stereo music visualizers by Kahraman MELEK®",
+  "author": {
+    "name": "Kahraman MELEK®",
+    "email": "kahraman.melek@gmail.com",
+    "url": "https://github.com/kahraman-melek-mimar"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/core.test.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "build": "python tools/build_release.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

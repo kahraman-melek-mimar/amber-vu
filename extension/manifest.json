@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Amber VU — Vintage Music Visualizer",
+  "version": "0.4.3",
+  "description": "15 görünüm: vintage VU, Nixie, stereo LED, ışık efektleri ve üç bağımsız stereo EKG tasarımı.",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "tabCapture",
+    "offscreen",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Bu sekmeyi Amber VU ile dinle"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "author": "Kahraman MELEK® <kahraman.melek@gmail.com>"
+}
